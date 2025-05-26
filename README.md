@@ -6,3 +6,5 @@ LiDAR/OPENCV 기반 자율 주행 서빙 로봇 프로젝트
          raspberry pi 4
          usb cam
          waveshare 4.3 inch dsi lcd display
+
+![Page 1](./src/TalkFile_위밋프로젝트4조-객체인식 기반 자율 서빙로봇.pptx.pptx.png)
