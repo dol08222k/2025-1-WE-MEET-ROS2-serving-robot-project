@@ -1,0 +1,2 @@
+Invoking command in '/home/khw/simulation_ws/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake /home/khw/simulation_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces
+Invoked command in '/home/khw/simulation_ws/build/dynamixel_sdk_custom_interfaces' returned '1': /usr/bin/cmake /home/khw/simulation_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces

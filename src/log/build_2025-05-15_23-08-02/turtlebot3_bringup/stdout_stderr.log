@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/khw/simulation_ws/src/build/turtlebot3_bringup
+-- Install configuration: ""
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle_pi.yaml
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/burger.yaml
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle.yaml
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/script
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+-- Up-to-date: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+-- Installing: /home/khw/simulation_ws/src/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml

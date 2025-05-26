@@ -1,0 +1,42 @@
+[0.041s] Invoking command in '/home/khw/simulation_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/src/build/dynamixel_sdk -- -j12 -l12
+[0.424s] [  0%] Built target ament_cmake_python_copy_dynamixel_sdk
+[0.424s] [100%] Built target dynamixel_sdk
+[0.495s] running egg_info
+[0.512s] writing dynamixel_sdk.egg-info/PKG-INFO
+[0.513s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[0.513s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[0.567s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.588s] Traceback (most recent call last):
+[0.589s]   File "/home/khw/simulation_ws/src/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/setup.py", line 4, in <module>
+[0.589s]     setup(
+[0.589s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[0.589s]     return distutils.core.setup(**attrs)
+[0.589s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.589s]     return run_commands(dist)
+[0.589s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.589s]     dist.run_commands()
+[0.590s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[0.590s]     self.run_command(cmd)
+[0.590s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+[0.590s]     super().run_command(command)
+[0.590s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[0.590s]     cmd_obj.run()
+[0.590s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[0.590s]     self.find_sources()
+[0.590s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[0.590s]     mm.run()
+[0.590s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[0.590s]     self.prune_file_list()
+[0.591s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[0.591s]     super().prune_file_list()
+[0.591s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[0.591s]     base_dir = self.distribution.get_fullname()
+[0.591s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[0.591s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.591s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[0.591s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.591s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.620s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg] Error 1
+[0.620s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/all] Error 2
+[0.620s] gmake: *** [Makefile:146: all] Error 2
+[0.789s] Invoked command in '/home/khw/simulation_ws/src/build/dynamixel_sdk' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/src/build/dynamixel_sdk -- -j12 -l12

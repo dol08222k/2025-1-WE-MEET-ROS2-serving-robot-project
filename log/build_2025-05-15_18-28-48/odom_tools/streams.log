@@ -1,0 +1,30 @@
+[8.498s] Invoking command in '/home/khw/simulation_ws/build/odom_tools': PYTHONPATH=/home/khw/simulation_ws/build/odom_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/khw/simulation_ws/build/odom_tools/build --no-deps symlink_data
+[10.174s] running develop
+[11.466s] running egg_info
+[11.467s] creating odom_tools.egg-info
+[11.543s] writing odom_tools.egg-info/PKG-INFO
+[11.545s] writing dependency_links to odom_tools.egg-info/dependency_links.txt
+[11.546s] writing entry points to odom_tools.egg-info/entry_points.txt
+[11.546s] writing requirements to odom_tools.egg-info/requires.txt
+[11.547s] writing top-level names to odom_tools.egg-info/top_level.txt
+[11.548s] writing manifest file 'odom_tools.egg-info/SOURCES.txt'
+[11.707s] reading manifest file 'odom_tools.egg-info/SOURCES.txt'
+[11.711s] writing manifest file 'odom_tools.egg-info/SOURCES.txt'
+[11.793s] running build_ext
+[11.798s] Creating /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom-tools.egg-link (link to .)
+[11.799s] Installing kiosk script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[11.800s] Installing move_turtlebot script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[11.804s] Installing mqtt_goal_sender script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[11.804s] Installing mqtt_receiver script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[11.805s] Installing object_detection script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[11.805s] Installing odom_listener script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[11.806s] Installing video_publisher script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[11.807s] 
+[11.811s] Installed /home/khw/simulation_ws/build/odom_tools
+[11.811s] running symlink_data
+[11.811s] creating /home/khw/simulation_ws/install/odom_tools/share/ament_index
+[11.812s] creating /home/khw/simulation_ws/install/odom_tools/share/ament_index/resource_index
+[11.812s] creating /home/khw/simulation_ws/install/odom_tools/share/ament_index/resource_index/packages
+[11.812s] symbolically linking /home/khw/simulation_ws/build/odom_tools/resource/odom_tools -> /home/khw/simulation_ws/install/odom_tools/share/ament_index/resource_index/packages
+[11.813s] symbolically linking /home/khw/simulation_ws/build/odom_tools/package.xml -> /home/khw/simulation_ws/install/odom_tools/share/odom_tools
+[12.058s] Invoked command in '/home/khw/simulation_ws/build/odom_tools' returned '0': PYTHONPATH=/home/khw/simulation_ws/build/odom_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/khw/simulation_ws/build/odom_tools/build --no-deps symlink_data

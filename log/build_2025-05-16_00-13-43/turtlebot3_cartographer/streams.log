@@ -1,0 +1,25 @@
+[0.095s] Invoking command in '/home/khw/simulation_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/build/turtlebot3_cartographer -- -j12 -l12
+[2.179s] Invoked command in '/home/khw/simulation_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/build/turtlebot3_cartographer -- -j12 -l12
+[2.183s] Invoking command in '/home/khw/simulation_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --install /home/khw/simulation_ws/build/turtlebot3_cartographer
+[2.215s] -- Install configuration: ""
+[2.215s] -- Execute custom install script
+[2.216s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[2.216s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[2.218s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[2.219s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[2.230s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[2.230s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[2.231s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[2.231s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[2.231s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[2.232s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[2.232s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[2.234s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[2.236s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[2.236s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[2.237s] -- Symlinking: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[2.274s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[2.275s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[2.278s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[2.281s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[2.360s] Invoked command in '/home/khw/simulation_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --install /home/khw/simulation_ws/build/turtlebot3_cartographer

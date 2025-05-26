@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/odom_tools/odom_tools.egg-info/PKG-INFO
+writing dependency_links to ../../build/odom_tools/odom_tools.egg-info/dependency_links.txt
+writing entry points to ../../build/odom_tools/odom_tools.egg-info/entry_points.txt
+writing requirements to ../../build/odom_tools/odom_tools.egg-info/requires.txt
+writing top-level names to ../../build/odom_tools/odom_tools.egg-info/top_level.txt
+reading manifest file '../../build/odom_tools/odom_tools.egg-info/SOURCES.txt'
+writing manifest file '../../build/odom_tools/odom_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+copying odom_tools/temp_kiosk.py -> /home/khw/simulation_ws/build/odom_tools/build/lib/odom_tools
+running install
+running install_lib
+copying /home/khw/simulation_ws/build/odom_tools/build/lib/odom_tools/temp_kiosk.py -> /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools
+byte-compiling /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools/temp_kiosk.py to temp_kiosk.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/odom_tools/odom_tools.egg-info to /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools-0.0.0-py3.10.egg-info
+running install_scripts
+Installing kiosk script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing latency_measurement script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing move_turtlebot script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing mqtt_goal_sender script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing mqtt_receiver script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing object_detection script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing odom_listener script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing temp_kiosk script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing video_publisher script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+writing list of installed files to '/home/khw/simulation_ws/build/odom_tools/install.log'

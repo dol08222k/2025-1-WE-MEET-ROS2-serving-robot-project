@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/khw/simulation_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/home/khw/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/build.make:131: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/depend] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:504: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+    import setuptools.version
+  File "/home/khw/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/khw/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 38, in <module>
+    import inspect
+  File "/usr/lib/python3.10/inspect.py", line 1180, in <module>
+    Arguments = namedtuple('Arguments', 'args, varargs, varkw')
+  File "/usr/lib/python3.10/collections/__init__.py", line 414, in namedtuple
+    __new__ = eval(code, namespace)
+  File "<string>", line 1, in <module>
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

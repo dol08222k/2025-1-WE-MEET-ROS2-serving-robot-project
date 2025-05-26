@@ -1,0 +1,37 @@
+[0.035s] Invoking command in '/home/khw/simulation_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
+[0.295s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.295s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.295s] [ 12%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[0.295s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.295s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.295s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.295s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.295s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.295s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.295s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[0.296s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[0.296s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[0.296s] Traceback (most recent call last):
+[0.296s]   File "/home/khw/simulation_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 1, in <module>
+[0.296s]     from setuptools import find_packages
+[0.296s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+[0.296s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/build.make:131: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/depend] Interrupt
+[0.296s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/depend] Interrupt
+[0.296s] gmake[2]: *** [CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:132: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/depend] Interrupt
+[0.296s] gmake[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/all] Interrupt
+[0.296s] gmake[1]: *** [CMakeFiles/Makefile2:504: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt
+[0.296s] gmake[1]: *** [CMakeFiles/Makefile2:534: CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+[0.297s]     import setuptools.version
+[0.297s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+[0.298s]     import pkg_resources
+[0.298s]   File "/home/khw/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 38, in <module>
+[0.298s]     import inspect
+[0.298s]   File "/usr/lib/python3.10/inspect.py", line 1180, in <module>
+[0.301s]     Arguments = namedtuple('Arguments', 'args, varargs, varkw')
+[0.301s]   File "/usr/lib/python3.10/collections/__init__.py", line 414, in namedtuple
+[0.301s]     __new__ = eval(code, namespace)
+[0.301s]   File "<string>", line 1, in <module>
+[0.301s] KeyboardInterrupt
+[0.313s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Interrupt
+[0.313s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Interrupt
+[0.313s] gmake: *** [Makefile:146: all] Interrupt

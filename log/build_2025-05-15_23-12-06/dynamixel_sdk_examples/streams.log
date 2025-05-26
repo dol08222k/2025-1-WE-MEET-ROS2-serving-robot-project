@@ -1,0 +1,57 @@
+[0.047s] Invoking command in '/home/khw/simulation_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces:/home/khw/simulation_ws/install/dynamixel_sdk:/home/khw/simulation_ws/install/turtlebot3:/home/khw/simulation_ws/install/turtlebot3_bringup:/home/khw/simulation_ws/install/turtlebot3_node:/home/khw/simulation_ws/install/turtlebot3_navigation2:/home/khw/simulation_ws/install/turtlebot3_msgs:/home/khw/simulation_ws/install/turtlebot3_description:/home/khw/simulation_ws/install/turtlebot3_cartographer:/home/khw/simulation_ws/install/dynamixel_sdk_examples:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools LD_LIBRARY_PATH=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/khw/simulation_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/khw/simulation_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/khw/simulation_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[0.134s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.665s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.697s] -- Found dynamixel_sdk: 3.8.3 (/home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.701s] -- Found dynamixel_sdk_custom_interfaces: 3.8.3 (/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.795s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.802s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.818s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.848s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.957s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.063s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.066s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.558s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.802s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[1.814s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.118s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.122s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.122s] -- Configured cppcheck include dirs: /home/khw/simulation_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[2.123s] -- Configured cppcheck exclude dirs and/or files: 
+[2.125s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.126s] -- Configured cpplint exclude dirs and/or files: 
+[2.127s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.128s] -- Added test 'lint_cmake' to check CMake code style
+[2.130s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.133s] -- Added test 'uncrustify' to check C / C++ code style
+[2.133s] -- Configured uncrustify additional arguments: 
+[2.134s] -- Added test 'xmllint' to check XML markup files
+[2.141s] -- Configuring done
+[2.178s] -- Generating done
+[2.192s] -- Build files have been written to: /home/khw/simulation_ws/build/dynamixel_sdk_examples
+[2.286s] [35m[1mConsolidate compiler generated dependencies of target read_write_node[0m
+[2.346s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[35.773s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[36.760s] [100%] Built target read_write_node
+[36.796s] Invoked command in '/home/khw/simulation_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces:/home/khw/simulation_ws/install/dynamixel_sdk:/home/khw/simulation_ws/install/turtlebot3:/home/khw/simulation_ws/install/turtlebot3_bringup:/home/khw/simulation_ws/install/turtlebot3_node:/home/khw/simulation_ws/install/turtlebot3_navigation2:/home/khw/simulation_ws/install/turtlebot3_msgs:/home/khw/simulation_ws/install/turtlebot3_description:/home/khw/simulation_ws/install/turtlebot3_cartographer:/home/khw/simulation_ws/install/dynamixel_sdk_examples:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools LD_LIBRARY_PATH=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/khw/simulation_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/khw/simulation_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/khw/simulation_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[36.802s] Invoking command in '/home/khw/simulation_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces:/home/khw/simulation_ws/install/dynamixel_sdk:/home/khw/simulation_ws/install/turtlebot3:/home/khw/simulation_ws/install/turtlebot3_bringup:/home/khw/simulation_ws/install/turtlebot3_node:/home/khw/simulation_ws/install/turtlebot3_navigation2:/home/khw/simulation_ws/install/turtlebot3_msgs:/home/khw/simulation_ws/install/turtlebot3_description:/home/khw/simulation_ws/install/turtlebot3_cartographer:/home/khw/simulation_ws/install/dynamixel_sdk_examples:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools LD_LIBRARY_PATH=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/khw/simulation_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/khw/simulation_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/khw/simulation_ws/build/dynamixel_sdk_examples
+[36.828s] -- Install configuration: ""
+[36.830s] -- Execute custom install script
+[36.832s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[36.833s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[36.833s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[36.834s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[36.835s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[36.836s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[36.837s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[36.837s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[36.838s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[36.839s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[36.839s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[36.840s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[36.840s] -- Symlinking: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[36.872s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[36.872s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[36.872s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[36.873s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[36.879s] Invoked command in '/home/khw/simulation_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces:/home/khw/simulation_ws/install/dynamixel_sdk:/home/khw/simulation_ws/install/turtlebot3:/home/khw/simulation_ws/install/turtlebot3_bringup:/home/khw/simulation_ws/install/turtlebot3_node:/home/khw/simulation_ws/install/turtlebot3_navigation2:/home/khw/simulation_ws/install/turtlebot3_msgs:/home/khw/simulation_ws/install/turtlebot3_description:/home/khw/simulation_ws/install/turtlebot3_cartographer:/home/khw/simulation_ws/install/dynamixel_sdk_examples:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools LD_LIBRARY_PATH=/home/khw/simulation_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/khw/simulation_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/khw/simulation_ws/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/khw/simulation_ws/build/dynamixel_sdk_examples

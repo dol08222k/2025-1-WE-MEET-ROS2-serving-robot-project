@@ -1,0 +1,33 @@
+[0.130s] Invoking command in '/home/khw/simulation_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[4.061s] Invoked command in '/home/khw/simulation_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[4.098s] Invoking command in '/home/khw/simulation_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --install /home/khw/simulation_ws/build/turtlebot3_navigation2
+[4.138s] -- Install configuration: ""
+[4.143s] -- Execute custom install script
+[4.175s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[4.189s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[4.191s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[4.191s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[4.192s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[4.199s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[4.208s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[4.208s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[4.209s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[4.216s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[4.216s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[4.217s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[4.250s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[4.251s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[4.251s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[4.252s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[4.252s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[4.252s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[4.253s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[4.253s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[4.253s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[4.253s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[4.258s] -- Symlinking: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[4.339s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[4.339s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[4.340s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[4.340s] -- Up-to-date symlink: /home/khw/simulation_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[4.674s] Invoked command in '/home/khw/simulation_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --install /home/khw/simulation_ws/build/turtlebot3_navigation2

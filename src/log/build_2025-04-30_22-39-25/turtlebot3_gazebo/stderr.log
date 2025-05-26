@@ -1,0 +1,26 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+gmake[2]: *** [CMakeFiles/obstacle2.dir/build.make:76: CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/obstacle1.dir/build.make:76: CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/obstacles.dir/build.make:76: CMakeFiles/obstacles.dir/src/obstacles.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/obstacle1.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/obstacle2.dir/all] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/obstacles.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/turtlebot3_drive.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/traffic_bar_plugin.dir/build.make:76: CMakeFiles/traffic_bar_plugin.dir/src/traffic_bar_plugin.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/traffic_bar_plugin.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/traffic_light_plugin.dir/build.make:76: CMakeFiles/traffic_light_plugin.dir/src/traffic_light_plugin.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/traffic_light_plugin.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

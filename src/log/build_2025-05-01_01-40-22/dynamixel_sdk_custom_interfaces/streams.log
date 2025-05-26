@@ -1,0 +1,55 @@
+[0.053s] Invoking command in '/home/khw/simulation_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/src/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
+[0.723s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.723s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.723s] [ 12%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[0.724s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.724s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.724s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.724s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.724s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.724s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.724s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[0.724s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[0.724s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[0.724s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[0.724s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.725s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.725s] running egg_info
+[0.725s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[0.725s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[0.725s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[0.725s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[0.725s] Traceback (most recent call last):
+[0.725s]   File "/home/khw/simulation_ws/src/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 4, in <module>
+[0.725s]     setup(
+[0.725s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[0.725s]     return distutils.core.setup(**attrs)
+[0.725s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.726s]     return run_commands(dist)
+[0.726s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.726s]     dist.run_commands()
+[0.726s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[0.726s]     self.run_command(cmd)
+[0.726s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+[0.726s]     super().run_command(command)
+[0.726s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[0.726s]     cmd_obj.run()
+[0.726s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[0.726s]     self.find_sources()
+[0.726s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[0.727s]     mm.run()
+[0.727s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[0.727s]     self.prune_file_list()
+[0.727s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[0.727s]     super().prune_file_list()
+[0.727s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[0.727s]     base_dir = self.distribution.get_fullname()
+[0.727s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[0.727s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.727s]   File "/home/khw/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[0.727s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.727s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.728s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Error 1
+[0.728s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Error 2
+[0.728s] gmake: *** [Makefile:146: all] Error 2
+[0.740s] Invoked command in '/home/khw/simulation_ws/src/build/dynamixel_sdk_custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/src/build/dynamixel_sdk_custom_interfaces -- -j12 -l12

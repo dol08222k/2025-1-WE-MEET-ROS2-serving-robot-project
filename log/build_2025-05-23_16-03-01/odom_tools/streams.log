@@ -1,0 +1,38 @@
+[1.465s] Invoking command in '/home/khw/simulation_ws/src/odom_tools': PYTHONPATH=/home/khw/simulation_ws/build/odom_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_tools build --build-base /home/khw/simulation_ws/build/odom_tools/build install --record /home/khw/simulation_ws/build/odom_tools/install.log --single-version-externally-managed install_data
+[1.803s] running egg_info
+[1.811s] writing ../../build/odom_tools/odom_tools.egg-info/PKG-INFO
+[1.812s] writing dependency_links to ../../build/odom_tools/odom_tools.egg-info/dependency_links.txt
+[1.812s] writing entry points to ../../build/odom_tools/odom_tools.egg-info/entry_points.txt
+[1.812s] writing requirements to ../../build/odom_tools/odom_tools.egg-info/requires.txt
+[1.812s] writing top-level names to ../../build/odom_tools/odom_tools.egg-info/top_level.txt
+[1.827s] reading manifest file '../../build/odom_tools/odom_tools.egg-info/SOURCES.txt'
+[1.828s] writing manifest file '../../build/odom_tools/odom_tools.egg-info/SOURCES.txt'
+[1.828s] running build
+[1.828s] running build_py
+[1.828s] copying odom_tools/move_turtlebot.py -> /home/khw/simulation_ws/build/odom_tools/build/lib/odom_tools
+[1.828s] copying odom_tools/kiosk.py -> /home/khw/simulation_ws/build/odom_tools/build/lib/odom_tools
+[1.829s] copying odom_tools/object_detection.py -> /home/khw/simulation_ws/build/odom_tools/build/lib/odom_tools
+[1.829s] running install
+[1.833s] running install_lib
+[1.841s] copying /home/khw/simulation_ws/build/odom_tools/build/lib/odom_tools/move_turtlebot.py -> /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools
+[1.841s] copying /home/khw/simulation_ws/build/odom_tools/build/lib/odom_tools/kiosk.py -> /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools
+[1.841s] copying /home/khw/simulation_ws/build/odom_tools/build/lib/odom_tools/object_detection.py -> /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools
+[1.841s] byte-compiling /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools/move_turtlebot.py to move_turtlebot.cpython-310.pyc
+[1.843s] byte-compiling /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools/kiosk.py to kiosk.cpython-310.pyc
+[1.845s] byte-compiling /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools/object_detection.py to object_detection.cpython-310.pyc
+[1.845s] running install_data
+[1.845s] running install_egg_info
+[1.854s] removing '/home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[1.854s] Copying ../../build/odom_tools/odom_tools.egg-info to /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom_tools-0.0.0-py3.10.egg-info
+[1.854s] running install_scripts
+[1.899s] Installing kiosk script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[1.899s] Installing latency_measurement script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[1.899s] Installing move_turtlebot script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[1.899s] Installing mqtt_goal_sender script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[1.899s] Installing mqtt_receiver script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[1.899s] Installing object_detection script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[1.900s] Installing odom_listener script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[1.900s] Installing temp_kiosk script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[1.900s] Installing video_publisher script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+[1.900s] writing list of installed files to '/home/khw/simulation_ws/build/odom_tools/install.log'
+[1.938s] Invoked command in '/home/khw/simulation_ws/src/odom_tools' returned '0': PYTHONPATH=/home/khw/simulation_ws/build/odom_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_tools build --build-base /home/khw/simulation_ws/build/odom_tools/build install --record /home/khw/simulation_ws/build/odom_tools/install.log --single-version-externally-managed install_data

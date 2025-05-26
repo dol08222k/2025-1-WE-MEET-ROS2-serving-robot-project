@@ -1,0 +1,32 @@
+[6.424s] Invoking command in '/home/khw/simulation_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/khw/simulation_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/khw/simulation_ws/build/turtlebot3_teleop/build install --record /home/khw/simulation_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[8.505s] running egg_info
+[8.603s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[8.604s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[8.605s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[8.605s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[8.606s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[8.781s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[8.786s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[8.787s] running build
+[8.788s] running build_py
+[8.788s] copying turtlebot3_teleop/__init__.py -> /home/khw/simulation_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[8.790s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/khw/simulation_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[8.790s] copying turtlebot3_teleop/script/__init__.py -> /home/khw/simulation_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[8.791s] running install
+[8.812s] running install_lib
+[8.889s] copying /home/khw/simulation_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[8.889s] copying /home/khw/simulation_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[8.890s] copying /home/khw/simulation_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[8.895s] byte-compiling /home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[8.898s] byte-compiling /home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-310.pyc
+[8.898s] byte-compiling /home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-310.pyc
+[8.899s] running install_data
+[8.900s] copying resource/turtlebot3_teleop -> /home/khw/simulation_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[8.900s] copying package.xml -> /home/khw/simulation_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[8.902s] running install_egg_info
+[8.987s] removing '/home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.2.9-py3.10.egg-info' (and everything under it)
+[8.989s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.2.9-py3.10.egg-info
+[8.993s] running install_scripts
+[9.327s] Installing teleop_keyboard script to /home/khw/simulation_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[9.329s] writing list of installed files to '/home/khw/simulation_ws/build/turtlebot3_teleop/install.log'
+[10.635s] Invoked command in '/home/khw/simulation_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/khw/simulation_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khw/simulation_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/khw/simulation_ws/build/turtlebot3_teleop/build install --record /home/khw/simulation_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data

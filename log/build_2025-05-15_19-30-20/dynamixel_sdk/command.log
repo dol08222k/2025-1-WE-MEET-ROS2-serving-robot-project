@@ -1,0 +1,2 @@
+Invoking command in '/home/khw/simulation_ws/build/dynamixel_sdk': /usr/bin/cmake /home/khw/simulation_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/khw/simulation_ws/install/dynamixel_sdk
+Invoked command in '/home/khw/simulation_ws/build/dynamixel_sdk' returned '1': /usr/bin/cmake /home/khw/simulation_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/khw/simulation_ws/install/dynamixel_sdk

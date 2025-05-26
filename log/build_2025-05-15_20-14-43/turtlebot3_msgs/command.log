@@ -1,0 +1,2 @@
+Invoking command in '/home/khw/simulation_ws/build/turtlebot3_msgs': /usr/bin/cmake /home/khw/simulation_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/khw/simulation_ws/install/turtlebot3_msgs
+Invoked command in '/home/khw/simulation_ws/build/turtlebot3_msgs' returned '1': /usr/bin/cmake /home/khw/simulation_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/khw/simulation_ws/install/turtlebot3_msgs

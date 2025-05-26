@@ -1,0 +1,83 @@
+[0.229s] Invoking command in '/home/khw/simulation_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/build/dynamixel_sdk -- -j12 -l12
+[2.544s] [100%] Built target dynamixel_sdk
+[2.544s] [100%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[2.717s] running egg_info
+[2.778s] writing dynamixel_sdk.egg-info/PKG-INFO
+[2.779s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[2.783s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[3.010s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[3.013s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[3.197s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[4.900s] Invoked command in '/home/khw/simulation_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --build /home/khw/simulation_ws/build/dynamixel_sdk -- -j12 -l12
+[4.909s] Invoking command in '/home/khw/simulation_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --install /home/khw/simulation_ws/build/dynamixel_sdk
+[5.065s] -- Install configuration: ""
+[5.066s] -- Execute custom install script
+[5.067s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[5.067s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[5.067s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[5.076s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[5.076s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[5.076s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[5.077s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[5.077s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[5.077s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[5.078s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[5.078s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[5.078s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[5.079s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[5.090s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[5.091s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[5.092s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[5.092s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[5.098s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[5.126s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[5.128s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.3-py3.10.egg-info/PKG-INFO
+[5.148s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.3-py3.10.egg-info/SOURCES.txt
+[5.149s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.3-py3.10.egg-info/dependency_links.txt
+[5.149s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.3-py3.10.egg-info/top_level.txt
+[5.165s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[5.165s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[5.165s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[5.166s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[5.166s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[5.166s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[5.166s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[5.167s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[5.167s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[5.167s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[5.167s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[5.168s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[5.176s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[5.176s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[5.176s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[5.177s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[5.177s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[5.177s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[5.177s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[5.185s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[5.185s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[5.186s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[5.186s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[5.186s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[5.186s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[5.196s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[5.197s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[5.198s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[5.198s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[5.198s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[5.198s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[5.200s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[5.201s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[5.201s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[5.201s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[5.201s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[5.202s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[5.202s] -- Symlinking: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[5.202s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[5.204s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.209s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[5.210s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[5.210s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[5.210s] -- Up-to-date symlink: /home/khw/simulation_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[5.393s] Listing '/home/khw/simulation_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[5.537s] Invoked command in '/home/khw/simulation_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/khw/simulation_ws/install/turtlebot3_teleop:/home/khw/simulation_ws/install/turtlebot3_example:/home/khw/simulation_ws/install/odom_tools /usr/bin/cmake --install /home/khw/simulation_ws/build/dynamixel_sdk

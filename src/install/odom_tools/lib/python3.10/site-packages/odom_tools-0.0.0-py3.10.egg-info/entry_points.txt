@@ -1,0 +1,8 @@
+[console_scripts]
+kiosk = odom_tools.kiosk:main
+move_turtlebot = odom_tools.move_turtlebot:main
+mqtt_goal_sender = odom_tools.mqtt_goal_sender:main
+mqtt_receiver = odom_tools.mqtt_receiver:main
+object_detection = odom_tools.object_detection:main
+odom_listener = odom_tools.odom_listener:main
+video_publisher = odom_tools.video_publisher:main

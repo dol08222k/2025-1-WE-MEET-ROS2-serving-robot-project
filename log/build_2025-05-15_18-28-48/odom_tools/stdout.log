@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating odom_tools.egg-info
+writing odom_tools.egg-info/PKG-INFO
+writing dependency_links to odom_tools.egg-info/dependency_links.txt
+writing entry points to odom_tools.egg-info/entry_points.txt
+writing requirements to odom_tools.egg-info/requires.txt
+writing top-level names to odom_tools.egg-info/top_level.txt
+writing manifest file 'odom_tools.egg-info/SOURCES.txt'
+reading manifest file 'odom_tools.egg-info/SOURCES.txt'
+writing manifest file 'odom_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/khw/simulation_ws/install/odom_tools/lib/python3.10/site-packages/odom-tools.egg-link (link to .)
+Installing kiosk script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing move_turtlebot script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing mqtt_goal_sender script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing mqtt_receiver script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing object_detection script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing odom_listener script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+Installing video_publisher script to /home/khw/simulation_ws/install/odom_tools/lib/odom_tools
+
+Installed /home/khw/simulation_ws/build/odom_tools
+running symlink_data
+creating /home/khw/simulation_ws/install/odom_tools/share/ament_index
+creating /home/khw/simulation_ws/install/odom_tools/share/ament_index/resource_index
+creating /home/khw/simulation_ws/install/odom_tools/share/ament_index/resource_index/packages
+symbolically linking /home/khw/simulation_ws/build/odom_tools/resource/odom_tools -> /home/khw/simulation_ws/install/odom_tools/share/ament_index/resource_index/packages
+symbolically linking /home/khw/simulation_ws/build/odom_tools/package.xml -> /home/khw/simulation_ws/install/odom_tools/share/odom_tools

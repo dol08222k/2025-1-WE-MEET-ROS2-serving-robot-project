@@ -1,0 +1,21 @@
+[100%] Built target dynamixel_sdk
+[100%] Built target ament_cmake_python_symlink_dynamixel_sdk
+Traceback (most recent call last):
+  File "/home/khw/simulation_ws/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/home/khw/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/home/khw/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/khw/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 82, in <module>
+    __import__('pkg_resources.extern.packaging.version')
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1010, in get_code
+  File "<frozen importlib._bootstrap>", line 246, in _verbose_message
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

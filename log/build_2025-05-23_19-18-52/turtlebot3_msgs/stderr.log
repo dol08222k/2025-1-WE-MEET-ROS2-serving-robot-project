@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "/home/khw/simulation_ws/build/turtlebot3_msgs/ament_cmake_python/turtlebot3_msgs/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/home/khw/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 16, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/all] Interrupt
+    import setuptools.version
+  File "/home/khw/.local/lib/python3.10/site-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/home/khw/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 83, in <module>
+    __import__('pkg_resources.extern.packaging.specifiers')
+  File "/home/khw/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/specifiers.py", line 299, in <module>
+    class Specifier(_IndividualSpecifier):
+  File "/home/khw/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/specifiers.py", line 394, in Specifier
+    _regex = re.compile(r"^\s*" + _regex_str + r"\s*$", re.VERBOSE | re.IGNORECASE)
+  File "/usr/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "/usr/lib/python3.10/sre_parse.py", line 512, in _parse
+    sourceget()
+  File "/usr/lib/python3.10/sre_parse.py", line 257, in get
+    self.__next()
+  File "/usr/lib/python3.10/sre_parse.py", line 241, in __next
+    if char == "\\":
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

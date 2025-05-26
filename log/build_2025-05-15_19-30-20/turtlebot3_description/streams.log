@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/khw/simulation_ws/build/turtlebot3_description': /usr/bin/cmake /home/khw/simulation_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/khw/simulation_ws/install/turtlebot3_description
+[0.385s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.385s] -- Configuring incomplete, errors occurred!
+[0.385s] See also "/home/khw/simulation_ws/build/turtlebot3_description/CMakeFiles/CMakeOutput.log".
+[0.385s] Traceback (most recent call last):
+[0.385s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.385s]     from ament_package.templates import get_environment_hook_template_path
+[0.385s] ModuleNotFoundError: No module named 'ament_package'
+[0.385s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.385s]   execute_process(/usr/bin/python3
+[0.385s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.386s]   /home/khw/simulation_ws/build/turtlebot3_description/ament_cmake_package_templates/templates.cmake)
+[0.386s]   returned error code 1
+[0.386s] Call Stack (most recent call first):
+[0.386s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.386s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.386s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.386s]   CMakeLists.txt:18 (find_package)
+[0.386s] 
+[0.386s] [0m
+[0.612s] Invoked command in '/home/khw/simulation_ws/build/turtlebot3_description' returned '1': /usr/bin/cmake /home/khw/simulation_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/khw/simulation_ws/install/turtlebot3_description
